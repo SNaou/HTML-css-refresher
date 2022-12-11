@@ -1,0 +1,71 @@
+body {
+        font-family: Calibri ;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    font-size: 15px;
+  }
+
+  article {
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 1px 1px 2px lightgrey;
+  }
+
+  article div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+  .container-header {
+    margin-top: 15px;
+  }
+  .card-heading p {
+    margin: 10px 0 0;
+  }
+  .card-heading h2 {
+    margin: 0;
+  }
+  .card-sub {
+    color: grey;
+  }
+
+  .card-avatar {
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+  }
+  .container-body {
+    margin-bottom: 20px;
+    height: 80px;
+  }
+  
+  button {
+    width: 172px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: white;
+  }
+  .green-button {
+    border-left: 1.5px solid limegreen;
+    border-right: none;
+    border-top: 1.5px solid limegreen;
+    border-bottom: 1.5px solid limegreen;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: limegreen;
+  }
+  
+  .red-button {
+    border: 1.5px solid red;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: red;
+  }
